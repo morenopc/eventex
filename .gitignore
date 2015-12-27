@@ -4,3 +4,4 @@
 .wttd
 *.sqlite3
 __pycache__
+staticfiles
