@@ -8,6 +8,6 @@ class SubscriptionFormTest(TestCase):
         self.form = SubscriptionForm()
 
     def test_form_has_fields(self):
-        """Form deve ter 4 campos"""
+        """Form must have 4 fields"""
         expected = ['name', 'cpf', 'email', 'phone']
         self.assertSequenceEqual(expected, list(self.form.fields))
