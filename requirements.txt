@@ -6,3 +6,5 @@ static3==0.6.1
 wheel==0.24.0
 gunicorn==19.4.1
 psycopg2==2.6.1
+django-test-without-migrations==0.4
+pytz
